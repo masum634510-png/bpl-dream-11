@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './component/navbar/Navbar'
 import Banner from './component/banner/Banner'
 import Players from './component/players/Players'
-import { Suspense } from 'react'
+import { Suspense, useState } from 'react'
 
 const fatchPlayer = async () => {
   const res = await fetch('/data.json')
@@ -11,12 +11,14 @@ const fatchPlayer = async () => {
 
 function App () {
   const playersPromise = fatchPlayer()
+  const [coin, setCoin] = useState(50000)
+  
   return (
     <>
-     <Navbar></Navbar>
+     <Navbar coin={coin}></Navbar>
      <Banner></Banner>
      <Suspense fallback={<span className="loading loading-spinner loading-md"></span>}>
-      <Players playersPromise={playersPromise}></Players>
+      <Players playersPromise={playersPromise} setCoin={setCoin} coin={coin}></Players>
      </Suspense>
     </>
   )

@@ -1,9 +1,25 @@
-import React, { use, useState } from 'react'
+import React, { useState } from 'react'
 import { FaUser } from 'react-icons/fa'
 import { FaFlag } from 'react-icons/fa'
 
-const Card = ({player}) => {
+const Card = ({player, setCoin, coin, selectedPlayers, setSelectedPlayers}) => {
+    
     const [isSelected, setIsSelected] = useState(false)
+
+    const handleChoosePlayer = () => {
+         let newCoin = coin - player.price;
+        if(newCoin >= 0){
+           setCoin(coin - player.price);
+        }
+         else{
+          alert("No Available Coin")
+          return;
+         }
+        alert(`${player.player_name} is selected`)
+        setIsSelected(true);
+        setSelectedPlayers([...selectedPlayers, player])
+       
+        }
     
     return (
         <div className='card bg-base-100  shadow-sm'>
@@ -22,16 +38,16 @@ const Card = ({player}) => {
                     <button className='btn'>{player.player_type}</button>
                 </div>
                 <div className='divider'></div>
-                <h2 className='font-bold'>{player.rating}</h2>
+                <h2 className='font-bold'>Rating :({player.rating})</h2>
                 <div className='flex  justify-between gap-3 font-bold'>
                     <p>{player.batting_style}</p>
                     <p className='text-right'>{player.bowling_style}</p>
                 </div>
 
                 <div className='card-actions justify-between items-center'>
-                    <p className='font-semibold'>{player.price}</p>
-                    <button className='btn' onClick={() => setIsSelected(true)}>
-                        {isSelected === "true" ? "Selected" : "Choose Players" }
+                    <p className='font-semibold'>Price ${player.price}</p>
+                    <button className='btn' onClick={handleChoosePlayer} disabled={isSelected}>
+                        {isSelected ? "Selected" : "Choose Players" }
                         </button>
                 </div>
             </div>

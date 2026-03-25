@@ -6,7 +6,7 @@
     "player_type": "All-rounder",
     "batting_style": "Left-hand bat",
     "bowling_style": "Slow left-arm orthodox",
-    "price": 850000,
+    "price": 8500,
     "rating": 4.9,
     "image": "https://i.ibb.co.com/gMnwHPrB/l93820250320112212.webp"
   },
@@ -17,7 +17,7 @@
     "player_type": "Batsman",
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm medium",
-    "price": 950000,
+    "price": 5000,
     "rating": 5.0,
     "image": "https://i.ibb.co.com/Gfp7LNYN/images.webp"
   },
@@ -28,7 +28,7 @@
     "player_type": "Bowler",
     "batting_style": "Right-hand bat",
     "bowling_style": "Legbreak googly",
-    "price": 750000,
+    "price": 200,
     "rating": 4.8,
     "image": "https://i.ibb.co.com/7Nx2v5pH/cricket-match-sri-lanka-afghanistan-842698360.webp"
   },
@@ -39,7 +39,7 @@
     "player_type": "Batsman",
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm offbreak",
-    "price": 900000,
+    "price": 65000,
     "rating": 4.7,
     "image": "https://i.ibb.co.com/S7JKmSvL/1-i2-D04lfp1-IX-Sai5-Qf-Kpb-A.gif"
   },
@@ -50,7 +50,7 @@
     "player_type": "All-rounder",
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm offbreak",
-    "price": 800000,
+    "price": 2000,
     "rating": 4.6,
     "image": "https://i.ibb.co.com/vXz0XzQ/maxwell.jpg"
   },
@@ -61,7 +61,7 @@
     "player_type": "Wicket-keeper Batsman",
     "batting_style": "Right-hand bat",
     "bowling_style": "None",
-    "price": 880000,
+    "price": 7200,
     "rating": 4.8,
     "image": "https://i.ibb.co.com/zXz9XzP/buttler.jpg"
   },
@@ -72,7 +72,7 @@
     "player_type": "Bowler",
     "batting_style": "Left-hand bat",
     "bowling_style": "Left-arm fast-medium",
-    "price": 600000,
+    "price": 4520,
     "rating": 4.5,
     "image": "https://i.ibb.co.com/wXz0XzR/fizz.jpg"
   },
@@ -83,7 +83,7 @@
     "player_type": "Batsman",
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm offbreak",
-    "price": 720000,
+    "price": 75000,
     "rating": 4.7,
     "image": "https://i.ibb.co.com/rXz9XzS/kane.jpg"
   },
@@ -94,7 +94,7 @@
     "player_type": "Bowler",
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm fast",
-    "price": 920000,
+    "price": 20,
     "rating": 4.9,
     "image": "https://i.ibb.co.com/pXz0XzT/bumrah.jpg"
   },
@@ -105,7 +105,7 @@
     "player_type": "Batsman",
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm offbreak",
-    "price": 820000,
+    "price": 80,
     "rating": 4.8,
     "image": "https://i.ibb.co.com/qXz9XzU/sky.jpg"
   },
@@ -116,7 +116,7 @@
     "player_type": "All-rounder",
     "batting_style": "Right-hand bat",
     "bowling_style": "Right-arm fast",
-    "price": 870000,
+    "price": 7800,
     "rating": 4.7,
     "image": "https://i.ibb.co.com/sXz0XzV/russell.jpg"
   }

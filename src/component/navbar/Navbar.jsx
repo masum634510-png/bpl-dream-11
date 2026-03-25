@@ -1,7 +1,7 @@
 import React from 'react';
 import dollarImg from '../../assets/dollar 1.png'
 
-const Navbar = () => {
+const Navbar = ({coin}) => {
     return (
 
         <div className="w-10/12 mx-auto navbar bg-base-100 shadow-sm">
@@ -10,7 +10,7 @@ const Navbar = () => {
             </div>
             <div className="flex-none">
                 <button className="flex justify-between items-center gap-2 font-bold text-xl">
-                    0 Coins
+                    {coin} Coins
                    <img src={dollarImg} alt="" />
                 </button>
             </div>

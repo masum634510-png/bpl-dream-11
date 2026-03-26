@@ -6,7 +6,7 @@ const Navbar = ({coin}) => {
 
         <div className="w-10/12 mx-auto navbar bg-base-100 shadow-sm">
             <div className="flex-1">
-                <a className="btn btn-ghost text-xl">daisyUI</a>
+                <a className="btn btn-ghost text-xl">Cricket</a>
             </div>
             <div className="flex-none">
                 <button className="flex justify-between items-center gap-2 font-bold text-xl">
